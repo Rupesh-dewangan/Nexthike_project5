@@ -18,10 +18,10 @@ st.set_page_config(layout="wide")
 
 st.markdown("<header> Tellco Data Analystics</header>", unsafe_allow_html=True)
 
-satisfaction_dashboard = pd.read_csv(r"engagement_scores.csv")
-experience_dashboard = pd.read_csv(r"experience_Score.csv")
-engagement_dashboard = pd.read_csv(r"Satisfaction_Score.csv")
-telecome_data = pd.read_csv(r"telecomdata.csv")
+satisfaction_dashboard = pd.read_csv(r"data/engagement_scores.csv")
+experience_dashboard = pd.read_csv(r"data/experience_Score.csv")
+engagement_dashboard = pd.read_csv(r"data/Satisfaction_Score.csv")
+telecome_data = pd.read_csv(r"data/telecomdata.csv")
 
 
 
