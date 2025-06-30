@@ -18,10 +18,10 @@ st.set_page_config(layout="wide")
 
 st.markdown("<header> Tellco Data Analystics</header>", unsafe_allow_html=True)
 
-satisfaction_dashboard = pd.read_csv(r"data/engagement_scores.csv")
-experience_dashboard = pd.read_csv(r"data/experience_Score.csv")
-engagement_dashboard = pd.read_csv(r"data/Satisfaction_Score.csv")
-telecome_data = pd.read_csv(r"data/telecomdata.csv")
+satisfaction_dashboard = pd.read_csv(r"https://raw.githubusercontent.com/Rupesh-dewangan/Nexthike_project5/refs/heads/main/Data/engagement_scores.csv")
+experience_dashboard = pd.read_csv(r"https://raw.githubusercontent.com/Rupesh-dewangan/Nexthike_project5/refs/heads/main/Data/experience_Score.csv")
+engagement_dashboard = pd.read_csv(r"https://raw.githubusercontent.com/Rupesh-dewangan/Nexthike_project5/refs/heads/main/Data/Satisfaction_Score.csv")
+telecome_data = pd.read_csv(r"https://raw.githubusercontent.com/Rupesh-dewangan/Nexthike_project5/refs/heads/main/Data/telecomdata.csv")
 
 
 
